@@ -1,0 +1,1 @@
+if other.id != playerId && other.iFrames == 0 Explode(1);

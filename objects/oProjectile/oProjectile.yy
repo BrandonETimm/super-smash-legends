@@ -1,0 +1,101 @@
+{
+    "id": "34b67734-71cf-4208-98bd-98a799f0c168",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "oProjectile",
+    "eventList": [
+        {
+            "id": "6ca40758-e08f-4aa1-9f43-ad422c92878f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "bd869ac7-3110-4867-ac1f-bae49e73be3d",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "34b67734-71cf-4208-98bd-98a799f0c168"
+        },
+        {
+            "id": "952f4935-f9f9-48aa-a6c0-d543b59b3d73",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "34b67734-71cf-4208-98bd-98a799f0c168"
+        },
+        {
+            "id": "b0daaddf-6cb3-45e0-b300-0b5e40d17f92",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "56d560a2-0757-49e1-a436-a70452997484",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "34b67734-71cf-4208-98bd-98a799f0c168"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "45421acb-1276-4a8e-8fae-9ffbb01cc1a2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "playerId",
+            "varType": 0
+        },
+        {
+            "id": "a07fa8d5-8a73-4e96-8669-387d6db79345",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "60",
+            "varName": "life",
+            "varType": 1
+        },
+        {
+            "id": "4263ca50-0978-435d-9594-effc9879c183",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "dir",
+            "varType": 1
+        }
+    ],
+    "solid": false,
+    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "visible": true
+}

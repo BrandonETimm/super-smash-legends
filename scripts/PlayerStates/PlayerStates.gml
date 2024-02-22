@@ -1,0 +1,17 @@
+enum PLAYERSTATE
+{
+	FREE,
+	ATTACK,
+	STUN,
+	SHIELD
+}
+
+enum CHAMPION
+{
+	ZED,
+	KAT,
+	WUKONG,
+	AKALI,
+	JINX,
+	IVERN
+}
